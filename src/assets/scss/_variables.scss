@@ -1,0 +1,32 @@
+:root {
+  // COLORS
+  --bg-color: #d4e2f0;
+  --icon-color: #8ea4c6;
+
+  // FONT COLOR
+  --font-color: #182a63;
+
+  // WHITE COLOR
+  --white-color: #fff;
+  --white-color-2: #f4faff;
+
+  // COLORS GRADIENT
+  --blue-gradient-1: #a86af9;
+  --blue-gradient-2: #4338dd;
+  --green-gradient-1: #03d959;
+  --green-gradient-2: #009f6c;
+
+  // BOX SHADOW
+  --box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
+    0 1px 5px 0 rgb(0 0 0 / 12%);
+  --box-shadow-small: 0 3px 1px -2px rgb(0 0 0 / 10%),
+    0 2px 2px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+
+  // BORDER RADIUS
+  --border-radius: 10px;
+  --border-radius-normal: 7px;
+  --border-radius-small: 3px;
+
+  // PADDING NORMAL
+  --padding-normal: 2rem;
+}

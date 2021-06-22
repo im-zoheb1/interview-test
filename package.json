@@ -7,12 +7,20 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@beyonk/google-fonts-webpack-plugin": "^1.7.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^3.0.0-4",
     "core-js": "^3.6.5",
+    "v-calendar": "^3.0.0-alpha.4",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
+    "@iconify/vue": "^3.0.0-alpha.1",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
