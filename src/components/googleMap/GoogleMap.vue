@@ -1,7 +1,7 @@
 <template>
   <div class="maps">
-    <div ref="map" class="google-map"></div>
     <div class="google-map-overlay"></div>
+    <div ref="map" class="google-map"></div>
     <div class="maps-content">
       <div class="maps-form">
         <div class="maps-form-title"></div>
@@ -36,12 +36,13 @@ export default {
   inset: 0;
   width: 100%;
   height: 100%;
+  opacity: 0.5;
 }
 .google-map-overlay {
   background: linear-gradient(
     to right bottom,
-    rgba(#a86af9, 0.6),
-    rgba(#4338dd, 0.6)
+    var(--blue-gradient-1),
+    var(--blue-gradient-1)
   );
   position: absolute;
   inset: 0;

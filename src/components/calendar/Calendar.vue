@@ -7,7 +7,6 @@
       is-range
       is-expanded
       style="height: 100%"
-      show-weeknumbers
     />
   </div>
 </template>
