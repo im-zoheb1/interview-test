@@ -22,5 +22,9 @@ export default {
   display: flex;
   flex-direction: row;
   flex: 1;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
 }
 </style>

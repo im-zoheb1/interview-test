@@ -1,17 +1,25 @@
 <template>
   <div class="appt-right">
     <google-map class="appt-map"></google-map>
-    <appointments-card class="appt-appointments"></appointments-card>
+    <appointments-card
+      :specialists="specialists"
+      class="appt-appointments"
+    ></appointments-card>
   </div>
 </template>
 
 <script>
 import GoogleMap from '@/components/googleMap/GoogleMap.vue';
 import AppointmentsCard from '@/components/appointmentsCard/AppointmentsCard.vue';
+
+import specialists from '@/common/specialists.js';
 export default {
   components: {
     googleMap: GoogleMap,
     appointmentsCard: AppointmentsCard,
+  },
+  data() {
+    return { specialists: specialists };
   },
 };
 </script>

@@ -1,11 +1,13 @@
 <template>
-  <div class="card-header">
-    <div class="card-title">{{ title }}</div>
-    <div class="card-icon">
-      <font-awesome-icon class="card-icon-ellipsis" icon="ellipsis-h" />
+  <div class="card-header-outer">
+    <div class="card-header">
+      <div class="card-title">{{ title }}</div>
+      <div class="card-icon">
+        <font-awesome-icon class="card-icon-ellipsis" icon="ellipsis-h" />
+      </div>
     </div>
+    <div class="card-subtitle">{{ subtitle }}</div>
   </div>
-  <div class="card-subtitle">{{ subtitle }}</div>
 </template>
 
 <script>
@@ -24,6 +26,10 @@ export default {
 <style lang="scss" scoped>
 .card {
   &-header {
+    &-outer {
+      display: flex;
+      flex-direction: column;
+    }
     display: flex;
     flex-direction: row;
     justify-content: space-between;
